@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "*"
+django = "*"
+django-ckeditor = "*"
+django-cors-headers = "*"
+django-js-asset = "*"
+django-tinymce = "*"
+djangorestframework = "*"
+pillow = "*"
+psycopg2-binary = "*"
+pytz = "*"
+sqlparse = "*"
+tzdata = "*"
+pipenv-to-requirements = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
